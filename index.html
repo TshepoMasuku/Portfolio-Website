@@ -1,9 +1,113 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tshepo Masuku's Portfolio</title>
-    </head>
-    <body>
-        <h1></h1>
-    </body>
+  <head>
+    <title>Tshepo Masuku's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Niconne&display=swap">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header style="
+      height: 50px; width: auto;
+      display: flex;
+      justify-content: space-between;">
+      <!-- LOGO -->
+      <div style="height: 50px; width: 500px;">
+        <span style="
+          font-family: 'Tangerine', serif;
+          font-family: 'Niconne', cursive; 
+          font-size: 72px;
+          "> Tshepo Webs
+        </span>
+      </div>
+      <nav style="
+        height:50px; width: 500px;
+        display: flex; 
+        justify-content: space-around;">
+        <a href="./index.html" style="text-decoration: none;">
+          <h2>Home</h2>
+        </a>
+        <a href="./about.html" style="text-decoration: none;">
+          <h2>About Me</h2>
+        </a>
+        <a href="./contact.html" style="text-decoration: none;">
+          <h2>Contact Me</h2>
+        </a>
+      </nav>
+    </header>
+    <br><hr>
+    <!-- BANNER -->
+    <div style="height: 400px; width: auto; background-color: blue;">
+      <img src="./assets/Tshepo Masuku Profile Banner.jpg" alt="Banner" width="100%" height="400">
+    </div>
+    <br>
+    <!-- Bio -->
+    <div style="
+      height:300px; width: auto;
+      display: flex;
+      justify-content: space-around;">
+      <div style="height:300px; width: 50vb;">
+        <h2>Tshepo Masuku</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repellendus odio eligendi, 
+          aliquid ullam voluptatibus, corporis vel quam itaque distinctio aut! Dolorem eius recusandae, 
+          facere reprehenderit quas deleniti laudantium voluptas, vero alias inventore eos quos.
+        </p>
+      </div>
+      <div style="height:300px; width: 50vb;">
+        <img src="./assets/Tshepo Masuku Profile Picture.jpg" alt="ProfilePic" 
+          style="height:250px; width: 250px; background-color: blue; border: gold 2px solid; border-radius: 130px;">
+      </div>
+    </div>
+    <br><hr>
+    <!-- ADDRESS -->
+    <div style="
+      height:400px; width: auto;
+      display: flex;
+      justify-content: space-around;">
+      <div>
+        <div style="height:150px; width: 300px;">
+          <h2>My Physical Address</h2>
+          <h3>
+            7852 Pitsonyane Street <br>
+            Orlando West <br>
+            Soweto <br>
+            1804 <br>
+            South Africa <br>
+          </h3>
+        </div>
+        <div style="height:150px; width: 300px;">
+          <h2>My Social Media Accounts</h2>
+          <div style="display: flex; justify-content: space-around;">
+            <a href="mailto:tshepomasuku16@gmail.com" target="_blank">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new"/>
+            </a>
+            <a href="https://t.me/ener_ki" target="_blank">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="telegram-app--v1"/>
+            </a>
+            <a href="https://wa.me/27812585187" target="_blank">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div style="height:400px; width: 500px;">
+        <!-- embedded Google map -->
+        <div style="overflow:hidden;max-width:100%;width:500px;height:350px; border-radius: 20px;">
+          <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
+            <iframe style="height:100%;width:100%;border:0;" frameborder="0" 
+              src="https://www.google.com/maps/embed/v1/place?q=7852+Pitsonyane+Street,+Orlando+West,+Soweto,+South+Africa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+            </iframe>
+          </div>
+          <a class="embed-map-html" href="https://www.bootstrapskins.com/themes" id="grab-maps-authorization">
+            premium bootstrap themes
+          </a>
+          <style>#my-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}
+          </style>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
