@@ -2,114 +2,98 @@
 <html>
   <head>
     <title>Contact Us</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Niconne&display=swap">
+    <link rel="stylesheet" href="./styles.css">
   </head>
-  <body style="
-    background: #00d2ff; 
-    background: -webkit-linear-gradient(to top, #3a7bd5dc, #00d0ffd4); 
-    background: linear-gradient(to top, #3a7bd5dc, #00d0ffd4);">
+  <body>
     <!-- HEADER -->
-    <header style="
-      height: 50px; width: auto;
-      display: flex;
-      justify-content: space-between;">
+    <header>
       <!-- LOGO -->
-      <div style="height: 50px; width: 500px;">
-        <a href="./index.html" style="text-decoration: none; color: black;">
-          <span style="
-            font-family: 'Tangerine', serif;
-            font-family: 'Niconne', cursive; 
-            font-size: 72px;
-            "> Tshepo Webs 
-          </span>
+      <div class="logo">
+        <a href="./index.html">
+          <img class="logo__image" src="./assets/Tshepo Webs Logo.png" alt="Logo">
         </a>
       </div>
-      <nav style="
-        height:50px; width: 500px;
-        display: flex; 
-        justify-content: space-around;">
-        <a href="./index.html" style="text-decoration: none; color: black;">
+      <nav>
+        <a href="./index.html">
           <h2>Home</h2>
         </a>
-        <a href="./about.html" style="text-decoration: none; color: black;">
+        <a href="./about.html">
           <h2>About Me</h2>
         </a>
-        <a href="./contact.html" style="text-decoration: none; color: black;">
-          <h2>Contact Us</h2>
+        <a href="./contact.html">
+          <h2>Contact</h2>
         </a>
       </nav>
     </header>
     <br><hr>
     <!-- BANNER -->
-    <div style="height: 40vh; width: auto; background-color: blue;">
+    <section class="banner">
       <img src="./assets/Tshepo Masuku Profile Banner.jpg" alt="Banner" width="100%" height="100%">
-    </div>
+    </section>
     <br>
     <!-- EMAIL CONTACT FORM -->
-    <div style="height: 400px; width: auto; display: flex; justify-content: center;">
+    <div class="emailFormContainer">
       <form>
-        <label for="">Email:</label> 
+        <h2>Send me a message</h2>
+        <label>Name and Surname*</label> 
         <br>
-        <input type="email" name="email" id="email" style="height: 20px; width: 50vb;"> 
+        <input type="text" name="name" id="name" class="emailForm__input" required>
         <br><br>
-        <label for="">Subject:</label> 
+        <label>Email Address*</label> 
         <br>
-        <input type="text" name="subject" id="subject" style="height: 20px; width: 50vb;"> 
+        <input type="email" name="email" id="email" class="emailForm__input" required> 
         <br><br>
-        <label for="">Your Message or Query:</label> 
+        <label>Your Message or Query*</label> 
         <br>
-        <textarea name="message" id="message" cols="50" rows="10"></textarea>
+        <textarea name="message" id="message" required></textarea>
         <br><br>
-        <button style="height: 35px; width: 150px;">Send</button> 
+        <div class="submitBtn-Center">
+          <button class="emailForm__submitBtn">Submit</button> 
+        </div>
       </form>
     </div>
     <br><hr>
-    <!-- FOOOTER -->
-    <div style="
-      height:400px; width: auto;
-      display: flex;
-      justify-content: space-around;">
+    <!-- FOOTER -->
+    <footer class="footer">
       <div>
-        <div style="height:250px; width: 300px;">
-          <h2>My Physical Address</h2>
-          <h3 style="font-weight: 500;">
-            7852 Pitsonyane Street <br>
-            Orlando West <br>
-            Soweto <br>
-            1804 <br>
-            South Africa <br>
-          </h3>
-          <div style="height: 50px; width: 175px; display: flex;">
-            <h4 style="font-weight: 500; margin-right: 12px;">Call me here: </h4>
-            <div style="height: 50px; width: 50px;">
+        <div class="footer__details">
+          <div class="footer__address">
+            <h2>My Physical Address</h2>
+            <h3>
+              7852 Pitsonyane Street <br>
+              Orlando West <br>
+              Johannesburg <br>
+              1804 <br>
+              Gauteng <br>
+              South Africa <br>
+            </h3>
+          </div>
+          <div class="footer__contactme">
+            <h4>Call me here:</h4>
+            <div  class="footer__contactme-icon">
               <a href="tel:+27812585187">
-                <img width="48" height="48" src="https://img.icons8.com/flat-round/64/phone.png" alt="phone"/>
+                <img class="icon" src="https://img.icons8.com/flat-round/64/phone.png" alt="phone"/>
               </a>
             </div>
           </div>
         </div>
-        <div style="height:50px; width: 300px;">
-          <div style="display: flex; justify-content: space-around;">
+        <div class="footer__socialmedia">
             <a href="mailto:tshepomasuku16@gmail.com" target="_blank">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new"/>
+              <img class="icon" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new"/>
             </a>
             <a href="https://t.me/ener_ki" target="_blank">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="telegram-app--v1"/>
+              <img class="icon" src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="telegram-app--v1"/>
             </a>
             <a href="https://wa.me/27812585187" target="_blank">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
+              <img class="icon" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
             </a>
-          </div>
         </div>
       </div>
-      <div style="height:400px; width: 500px;">
+      <div class="footer__mapContainer">
         <!-- embedded Google map -->
-        <div style="overflow:hidden;max-width:100%;width:500px;height:350px; border-radius: 20px;">
-          <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
-            <iframe style="height:100%;width:100%;border:0;" frameborder="0" 
+        <div class="footer__map">
+          <div id="my-map-display" class="my-map-display">
+            <iframe class="iframe" frameborder="0" 
               src="https://www.google.com/maps/embed/v1/place?q=7852+Pitsonyane+Street,+Orlando+West,+Soweto,+South+Africa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
             </iframe>
           </div>
@@ -120,6 +104,6 @@
           </style>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

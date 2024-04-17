@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #00d2ff; 
+    background: -webkit-linear-gradient(to top,#3a7bd5dc, #00d0ffd4); 
+    background: linear-gradient(to top, #3a7bd5dc, #00d0ffd4);
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+
+/* HEADER styles */
+header {
+    height: 100px; 
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 100%;
+    width: 40vw;
+    margin: 0.5rem 1rem;
+}
+.logo__image {
+    height: 100%;
+    width: 200px;
+}
+
+nav {
+    height:100%; 
+    width: 60vw;
+    margin: 0.5rem;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* BANNER styles */
+.banner {
+    height: 40vh; 
+    width: 96vw; 
+    margin: 0 1rem;
+}
+.homePage__video {
+    height: 50vh;
+    width: 96vw; 
+    margin: 0 1rem;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* FOOTER styles */
+.footer {
+    height: fit-content;
+    width: auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__details {
+    height: 200px;
+    width: 50vw;
+    display: flex;
+}
+
+.footer__address {
+    height:100%; 
+    width: 50%;
+}
+.footer__address h3 {
+    font-weight: 500;
+}
+
+.footer__contactme{
+    height: 100%; 
+    width: 50%; 
+    margin: 0.75rem;
+    display: flex; 
+    justify-content: flex-end;
+}
+.footer__contactme h4 {
+    margin-right: 12px;
+    font-weight: 500;
+}
+.footer__contactme-icon {
+    height: 50px; 
+    width: 50px;
+}
+.icon {
+    height: 48px;
+    width: 48px; 
+}
+
+.footer__socialmedia {
+    height:50px; 
+    width: 300px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.footer__mapContainer {
+    height: 200px; 
+    width: 400px;
+}
+.footer__map {
+    overflow: hidden;
+    max-width: 100%;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+}
+.iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+.my-map-display {
+    height: 100%; 
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* BIO styles */
+.bioContainer {
+    height: fit-content; 
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bio__text {
+    height:100%; 
+    width: 70vw;
+    padding: 0 2rem 0 10rem;
+}
+.bio__text-header {
+    text-align: center; 
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+.bio__text p {
+    margin: 1rem 0;
+}
+
+.bio__imageContainer {
+    height:100%; 
+    width: 30vw;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.bio__image {
+    height:250px; 
+    width: 250px; 
+    border: gold 2px solid; 
+    border-radius: 130px;
+}
+
+
+/* ABOUT ME styles */
+.aboutContainer {
+    height: fit-content; 
+    width: auto; 
+    margin: 0 5rem;
+    display: flex; 
+    flex-direction: column;
+}
+
+.Title {
+    width: 100%;
+    padding: 0.5rem;
+}
+.Title h2 {
+    text-align: center;
+}
+
+/* ABOUT ME -> PERSONAL INFO */
+.personalInfoContainer {
+    height:fit-content; 
+    width: auto; 
+}
+.personalInfo {
+    display: flex;
+}
+.personalInfo__text {
+    height:100%; 
+    width: 65%; 
+    padding: 2rem; 
+}
+.personalInfo__text p {
+    margin: 0.5rem 0;
+}
+.personalInfo__imageContainer {
+    height:100%; 
+    width: 35%;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.personalInfo__image {
+    height:250px; 
+    width: 250px; 
+    border: gold 2px solid; 
+    border-radius: 130px;
+}
+
+/* ABOUT ME -> EDUCATIONAL BACKGROUND */
+.educationContainer {
+    height: fit-content;
+    width: auto;
+}
+.eduBGcards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.eduBGcard {
+    background-color: #3a7bd5dc;
+    height: 300px;
+    width: 500px;
+    margin: 1rem;
+    display: flex;
+    border-radius: 16px;
+    border: 2px solid #00d0ffd4;
+    box-shadow: 4px 8px 6px #3a7bd5dc;
+}
+
+.eduBGcard__imageContainer {
+    height: 100%;
+    width: 50%;
+    border-radius: 16px 0 0 16px;
+}
+.eduBGcard__image {
+    height: 100%;
+    width: 100%;
+    border-radius: 16px 0 0 16px;
+}
+
+.eduBGcard__textContainer {
+    height: 100%;
+    width: 50%;
+    border-radius: 0 16px 16px 0;
+}
+.eduBGcard__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.eduBGcard__description {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+
+/* ABOUT ME -> MY PROJECTS */
+.projectsContainer {
+    height: fit-content;
+    width: auto;
+}
+.projectCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.projectCard {
+    background-color: #3a7bd5dc;
+    height: 400px;
+    width: 250px;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 16px;
+    border: 2px solid #3a7bd5dc;
+    box-shadow: 4px 8px 8px #00d0ffd4;
+}
+.projectCard__image {
+    height: 250px;
+    width: 100%;
+    border-radius: 16px;
+}
+.projectCard__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.projectCard__description {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+} 
+
+
+/* EMAIL CONTACT FORM styles */
+.emailFormContainer {
+    height: fit-content;
+    width: auto; 
+    display: flex; 
+    justify-content: center;
+}
+form h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+.emailForm__input {
+    height: 1.5rem; 
+    width: 50vw;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+textarea{
+    height: 13vh;
+    width: 50vw;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.submitBtn-Center {
+    display: flex;
+}
+.emailForm__submitBtn {
+    height: 3rem; 
+    width: 10rem;
+    margin-left: 35%;
+    padding: 0.5rem;
+    color: black;
+    background-color: #00d0ffd4; 
+    border: 2px solid #3a7bd5dc;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+}
+.emailForm__submitBtn:hover {
+    background-color: #3a7bd5dc;
+}
