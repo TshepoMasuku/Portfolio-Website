@@ -227,6 +227,7 @@ iframe {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .eduBGcard {
     background-color: #3a7bd5dc;
@@ -234,22 +235,22 @@ iframe {
     width: 500px;
     margin: 1rem;
     display: flex;
-    border-radius: 16px;
+    border-radius: 16px 0;
     border: 2px solid #00d0ffd4;
     box-shadow: 4px 8px 6px #3a7bd5dc;
 }
 
 .eduBGcard__imageContainer {
     height: 100%;
-    width: 50%;
-    border-radius: 16px 0 0 16px;
+    width: 100%;
+    border-radius: 16px 0 16px 0;
 }
 .eduBGcard__image {
     height: 100%;
     width: 100%;
-    border-radius: 16px 0 0 16px;
+    border-radius: 16px 0 16px 0;
 }
-
+/* 
 .eduBGcard__textContainer {
     height: 100%;
     width: 50%;
@@ -264,6 +265,7 @@ iframe {
     font-size: 0.75rem;
     padding: 0.5rem;
 }
+ */
 
 /* ABOUT ME -> MY PROJECTS */
 .projectsContainer {
@@ -273,6 +275,7 @@ iframe {
 .projectCardsContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .projectCard {
     background-color: #3a7bd5dc;
@@ -295,7 +298,7 @@ iframe {
     text-align: center;
 }
 .projectCard__description {
-    font-size: 0.75rem;
+    font-size: 1rem;
     padding: 0.5rem;
 } 
 
