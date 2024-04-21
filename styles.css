@@ -46,12 +46,12 @@ nav {
 
 /* BANNER styles */
 .banner {
-    height: 40vh; 
+    height: 20rem; 
     width: 96vw; 
     margin: 0 1rem;
 }
 .homePage__video {
-    height: 50vh;
+    height: 25rem;
     width: 96vw; 
     margin: 0 1rem;
 }
@@ -306,7 +306,8 @@ iframe {
 /* EMAIL CONTACT FORM styles */
 .emailFormContainer {
     height: fit-content;
-    width: auto; 
+    max-width: 1000px;
+    margin: auto; 
     display: flex; 
     justify-content: center;
 }
