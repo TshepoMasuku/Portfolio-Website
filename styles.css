@@ -250,22 +250,6 @@ iframe {
     width: 100%;
     border-radius: 16px 0 16px 0;
 }
-/* 
-.eduBGcard__textContainer {
-    height: 100%;
-    width: 50%;
-    border-radius: 0 16px 16px 0;
-}
-.eduBGcard__title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-}
-.eduBGcard__description {
-    font-size: 0.75rem;
-    padding: 0.5rem;
-}
- */
 
 /* ABOUT ME -> MY PROJECTS */
 .projectsContainer {
@@ -279,9 +263,8 @@ iframe {
 }
 .projectCard {
     background-color: #3a7bd5dc;
-    height: 400px;
+    height: 500px;
     width: 250px;
-    padding: 0.5rem;
     margin: 1rem;
     border-radius: 16px;
     border: 2px solid #3a7bd5dc;
@@ -290,7 +273,7 @@ iframe {
 .projectCard__image {
     height: 250px;
     width: 100%;
-    border-radius: 16px;
+    border-radius: 16px 16px 0 0;
 }
 .projectCard__title {
     font-size: 1.5rem;
@@ -301,6 +284,13 @@ iframe {
     font-size: 1rem;
     padding: 0.5rem;
 } 
+.projectCard__techStack {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+.projectCard__iconLink {
+    text-align: center;
+}
 
 
 /* EMAIL CONTACT FORM styles */
@@ -311,6 +301,10 @@ iframe {
     display: flex; 
     justify-content: center;
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
 form h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -318,29 +312,43 @@ form h2 {
 
 label {
     font-size: 1.5rem;
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
 }
+label span {
+    color: red;
+    font-size: 1.35rem;
+}
+.hidden {
+    display: none;
+}
+
 .emailForm__input {
     height: 1.5rem; 
     width: 50vw;
     padding: 1rem;
-    border: none;
+    margin: 0.5rem 0;
     border-radius: 0.5rem;
+    border: 2px solid black;
 }
 
-textarea{
-    height: 13vh;
+textarea {
+    height: 15rem;
     width: 50vw;
     padding: 1rem;
+    margin-bottom: 0.5rem;
     border-radius: 0.5rem;
+    border: 2px solid black;
 }
 
 .submitBtn-Center {
     display: flex;
+    justify-content: center;
 }
 .emailForm__submitBtn {
     height: 3rem; 
     width: 10rem;
-    margin-left: 35%;
     padding: 0.5rem;
     color: black;
     background-color: #00d0ffd4; 
