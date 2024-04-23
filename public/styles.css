@@ -262,13 +262,13 @@ iframe {
     justify-content: center;
 }
 .projectCard {
-    background-color: #3a7bd5dc;
+    background-color: #00d0ffd4;
     height: 500px;
     width: 250px;
     margin: 1rem;
     border-radius: 16px;
     border: 2px solid #3a7bd5dc;
-    box-shadow: 4px 8px 8px #00d0ffd4;
+    box-shadow: 4px 8px 20px #000;
 }
 .projectCard__image {
     height: 250px;

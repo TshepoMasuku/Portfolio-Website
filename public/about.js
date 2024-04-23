@@ -128,10 +128,14 @@ function loadMyProjects() {
           <p class="projectCard__description">${myProject.description}</p>
           <p class="projectCard__techStack">Tech Stack: ${myProject.techStack.join(", ")}.</p>
           <div class="projectCard__iconLink">
-            <a href=${myProject.projectLink} target="_blank">ICON: View Project</a>
+            <a href=${myProject.projectLink} target="_blank">
+              <img width="18" height="18" src="https://img.icons8.com/small/32/external-link.png" alt="external-link"/> View Project 
+            </a>
           </div>
           <div class="projectCard__iconLink">
-            <a href=${myProject.githubLink} target="_blank">ICON: Preview GitHub Code</a>
+            <a href=${myProject.githubLink} target="_blank">
+              <img width="18" height="18" src="https://img.icons8.com/small/32/github.png" alt="github"/> GitHub Code
+            </a>
           </div>
         </div>
       `

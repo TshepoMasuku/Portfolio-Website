@@ -1,0 +1,5 @@
+.firebase
+.github
+node_modules
+package-lock.json
+firebase-debug.log
