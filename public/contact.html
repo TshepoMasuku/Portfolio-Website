@@ -39,26 +39,29 @@
         <h2>Send me a message</h2>
         <label>Name(s)*
           <input type="text" name="names" id="names" class="emailForm__input"> 
-          <span class="hidden">Input above invalid/required.</span> 
+          <span id="namesSpan" class="hidden"></span> 
         </label> 
         <label>Surname* 
           <input type="text" name="surname" id="surname" class="emailForm__input"> 
-          <span class="hidden">Input above invalid/required.</span> 
+          <span id="surnameSpan" class="hidden"></span> 
         </label> 
         <label>Email Address* 
           <input type="email" name="email" id="email" class="emailForm__input"> 
-          <span class="hidden">Input above invalid/required.</span> 
+          <span id="emailSpan" class="hidden"></span> 
         </label> 
         <label>Subject* 
           <input type="text" name="subject" id="subject" class="emailForm__input"> 
-          <span class="hidden">Input above invalid/required.</span> 
+          <span id="subjectSpan" class="hidden"></span> 
         </label> 
         <label>Your Message/Query*
           <textarea name="message" id="message"></textarea> 
-          <span class="hidden">Input above invalid/required.</span> 
+          <span id="messageSpan" class="hidden"></span> 
         </label> 
-        <div class="submitBtn-Center"> 
-          <button type="submit" class="emailForm__submitBtn" onclick={handleSubmit(event)}>
+        <div class="emailForm__btnContainer"> 
+          <button type="reset" class="emailForm__button" onclick={handleClear()}>
+            Clear
+          </button> 
+          <button type="submit" class="emailForm__button" onclick={handleSubmit(event)}>
             Submit
           </button> 
         </div>

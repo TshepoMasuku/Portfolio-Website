@@ -342,11 +342,11 @@ textarea {
     border: 2px solid black;
 }
 
-.submitBtn-Center {
+.emailForm__btnContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
-.emailForm__submitBtn {
+.emailForm__button {
     height: 3rem; 
     width: 10rem;
     padding: 0.5rem;
