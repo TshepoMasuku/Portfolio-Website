@@ -92,28 +92,28 @@ function loadMyProjects() {
       description: "This is a Heroku inspired responsive web-app clone.",
       techStack: ["HTML", "CSS"],
       projectLink: "https://lucent-baklava-2c195c.netlify.app/index.html",
-      githubLink: "https://github.com/TshepoMasuku/",
+      githubLink: "https://github.com/TshepoMasuku/Loruki",
     }, {
       image: "./assets/StarWars-starz.PNG",
       title: "Star Wars: Starz",
       description: "This web-app displays Star Wars stars within cards that show their various characteristics.",
       techStack: ["HTML", "CSS", "JS", "React"],
       projectLink: "https://tshepomasuku.github.io/sw-starz/",
-      githubLink: "https://github.com/TshepoMasuku/",
+      githubLink: "https://github.com/TshepoMasuku/sw-starz",
     }, {
       image: "./assets/SmartBrain-feycbox.PNG",
       title: "Face Box",
       description: "Face detection web-app: By simply draging/uploading a picture with a single person in it this app should be able to detect the person's face in that picture.",
       techStack: ["HTML", "CSS", "Tachyons", "JS", "React"],
       projectLink: "https://feycbox.vercel.app/",
-      githubLink: "https://github.com/TshepoMasuku/",
+      githubLink: "https://github.com/TshepoMasuku/feycbox",
     }, {
       image: "./assets/CrwnClothing.png",
       title: "Crwn Cloth!ng",
       description: "This is an e-commerce prototype for an online clothing brand.",
       techStack: ["HTML", "CSS", "JS", "React", "Firebase"],
       projectLink: "https://profound-chaja-258ec4.netlify.app/",
-      githubLink: "https://github.com/TshepoMasuku/",
+      githubLink: "https://github.com/TshepoMasuku/CrwnClothing",
     }
   ];
 
