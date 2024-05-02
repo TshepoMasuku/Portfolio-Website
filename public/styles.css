@@ -356,6 +356,9 @@ textarea {
     border-radius: 1rem;
     font-size: 1.25rem;
 }
-.emailForm__submitBtn:hover {
+.emailForm__button:hover {
+    transition: ease-in-out;
+    scale: 0.9;
+    color: white;
     background-color: #3a7bd5dc;
 }
